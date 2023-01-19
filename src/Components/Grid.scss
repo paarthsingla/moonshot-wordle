@@ -25,3 +25,13 @@
         color: black;
     }
 }
+
+@media (max-width: 557px) {
+    .user-alert {
+        height: 8vw;
+        span {
+            font-size: 3vw;
+            padding: 2vw;
+        }
+    }
+}

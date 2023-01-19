@@ -76,4 +76,36 @@
             cursor: pointer;
         }
     }
+
+    @media (max-width: 557px) {
+        .instructions {
+            box-shadow: 0 0 10px #787c7e;
+            max-width: 78vw;
+            max-height: 81vw;
+            padding: 5.5vw;
+            gap: 1.2vw;
+            .heading {
+                font-size: 5.5vw;
+            }
+            .sub-heading {
+                font-size: 3vw;
+                padding: 0 0 1vw 0;
+            }
+            span {
+                font-size: 2.5vw;
+            }
+            .sample {
+                gap: 0.5vw;
+                div {
+                    height: 4.5vw;
+                    width: 4.5vw;
+                }
+            }
+            .play {
+                height: 5.5vw;
+                font-size: 4vw;
+                padding: 2vw 0 2.5vw 0;
+            }
+        }
+    }
 }

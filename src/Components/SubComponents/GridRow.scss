@@ -13,6 +13,14 @@
         font-size: xx-large;
     }
 
+    @media (max-width: 557px) {
+        div {
+            height: 11vw;
+            width: 11vw;
+            font-size: 5vw;
+        }
+    }
+
     .box{
         border: 2px solid #d3d6da;
     }

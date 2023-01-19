@@ -41,9 +41,9 @@ function NavHead() {
         <div onClick={modeSwitch}>&#9728;</div>
         <div onClick={gameRefresh}>{(finalWord==='Y') && <>Next &#8250;</>}</div>
       </div>
-      <span>Wordle</span>
+      <div className="title">Wordle</div>
       <div className="sub-heads">
-        Score: {score[0]} / {score[1]}
+        <span className="score">Score: {score[0]} / {score[1]}</span>
       </div>
     </div>
   )

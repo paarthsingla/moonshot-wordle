@@ -23,3 +23,11 @@ button {
     background-color: #6aaa64;
     color: white;
 }
+
+@media (max-width: 557px) {
+    button {
+        height: 9vw;
+        min-width: 6vw;
+        font-size: 3vw;
+    }
+}
