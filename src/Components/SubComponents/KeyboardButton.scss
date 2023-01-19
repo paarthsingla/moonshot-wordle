@@ -1,0 +1,25 @@
+button {
+    height: 60px;
+    min-width: 40px;
+    border: none;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+.plain{
+    background-color: #d3d6da;
+}
+.grey{
+    background-color: #787c7e;
+    color: white;
+}
+.yellow{
+    background-color: #c9b458;
+    color: white;
+}
+.green{
+    background-color: #6aaa64;
+    color: white;
+}

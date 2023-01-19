@@ -1,0 +1,27 @@
+.grid{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.user-alert {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    height: 42px;
+    span {
+        font-weight: 700;
+        padding: 10px;
+        border-radius: 5px;
+    }
+
+    .light {
+        background-color: black;
+        color: white;
+    }
+
+    .dark {
+        background-color: white;
+        color: black;
+    }
+}
